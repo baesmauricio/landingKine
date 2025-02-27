@@ -33,3 +33,24 @@ window.addEventListener('DOMContentLoaded', event => {
 
 });
 
+// Asegúrate de que el documento esté listo antes de ejecutar el script
+document.addEventListener('DOMContentLoaded', function() {
+    // Seleccionar el encabezado y el contenido
+    const header = document.getElementById('toggle-header');
+    const content = document.getElementById('toggle-content');
+
+    // Inicialmente, ocultamos el contenido
+    content.style.display = 'none';
+
+    // Agregar el evento de clic al encabezado
+    header.addEventListener('click', function() {
+        // Verificar si el contenido está visible o no
+        if (content.style.display === 'none') {
+            // Mostrar el contenido
+            content.style.display = 'block';
+        } else {
+            // Ocultar el contenido
+            content.style.display = 'none';
+        }
+    });
+});
