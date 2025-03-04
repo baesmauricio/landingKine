@@ -51,11 +51,13 @@
                         Region Metropolitana - Chile 
                         <!-- <a href="mailto:name@email.com">baesmauricio@gmail.com</a> -->
                     </div>
-                                        <hr class="m-0" />
+                    <hr class="m-0 mb-3" />
 
-                    <p class="lead mb-5">Mi nombre es Mauricio, oriundo de Constitución, Kinesiólogo de la Universidad Catolica del Maule, Talca, Chile. 
+                    <p class="lead mb-3">Mi nombre es Mauricio, oriundo de Constitución, Kinesiólogo de la Universidad Catolica del Maule, Talca, Chile. 
                         Apasionado por la  neurociencia y la fisiología del ejercicio, que inició una búsqueda irrenunciable de los efectos cognitivos asociados a la inactividad fisica y a la practica regular e intensa de ejercicio fisico.
                         Tengo un profundo interés por cómo la actividad física puede, no solo mejorar la estructura y función del cerebro sino que tambien, retrasar el envejecimiento cerebral al estimular activamente la neuroplasticidad.</p>
+                        <p class="lead mb-3">Si quieres saber mas de mi y cómo puedo ayudarte, te invito a seguir leyendo 👇. </p>
+                        <p class="lead mb-5">Si te quedas dudas, contactame <i class="fa-solid fa-phone"></i></p>
                     <div class="social-icons">
                         <a class="social-icon" href="https://wa.me/569539669?text=Hola%20soy%20de%20FIT%20YOUR%20BRAIN.%20Me%20interesa%20responder%20todas%20tus%20%20sobre%20mis%20servicios.">
                             <i class="fa-brands fa-whatsapp"></i> 
@@ -79,7 +81,7 @@
                     <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div class="flex-grow-1">
                             <h3 class="mb-0">Kinesiologo</h3>
-                            <div class="subheading mb-3">Hospital San Juan de Dios y Hospital Clinico PUC</div>
+                            <div class=" text-primary subheading mb-3">Hospital San Juan de Dios y Hospital Clinico PUC</div>
                             <p>Kinesiólogo con más de 18 años de experiencia en el ámbito clínico. En la Unidad de cuidados intensivos participé activamente en la rehabilitación precoz y segura de los pacientes críticos a lo largo de toda la estadía en Unidad de cuidados intensivos (UCI), contribuyendo a reducir los días de ventilación mecánica, las tasas de fracaso post extubación, los días de estadía en UCI, la debilidad muscular adquirida en UCI y la incidencia de delirio</p>
                         </div>
                         <!-- <div class="flex-shrink-0"><span class="text-primary">Junio  2006 - octubre 2024</span></div> -->
@@ -87,7 +89,7 @@
                     <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div class="flex-grow-1">
                             <h3 class="mb-0">Docencia e Investigacion en Neurociencia cognitiva y Sicologia Cognitiva</h3>
-                            <div class="subheading mb-3">Universidad San Sebastian - Universidad Santo tomas - Universidad de Chile</div>
+                            <div class="text-primary subheading mb-3">Universidad San Sebastian - Universidad Santo tomas - Universidad de Chile</div>
                             <p>Trabaje durante 7 años en docencia de pregrado en los ramos de Neurofisiologia y Neurorehabilitacion. Ademas cuento con una formación académica en Neurociencias (Magíster en Neurociencias, U. de Chile, en trámite) y una pasantía en el NeuroCognitive Kinesiology Lab (Universidad de Illinois). Tengo un profundo interés en continuar desarrollando investigación científica enfocada en los efectos agudos y crónicos del ejercicio físico aeróbico y obesidad sobre el control cognitivo.</p>
                         </div>
                         <!-- <div class="flex-shrink-0"><span class="text-primary">Marzo 2008 - Presente</span></div> -->
@@ -95,7 +97,7 @@
                     <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div class="flex-grow-1">
                             <h3 class="mb-0">Junior Web Designer</h3>
-                            <div class="subheading mb-3">Freelancer</div>
+                            <div class="text-primary subheading mb-3">Freelancer</div>
                             <p>Soy un Desarrollador Web Full Stack Junior en proceso de consolidar mis habilidades en HTML, CSS, JavaScript, React (frontend) y Node.js, Express, MongoDB (backend). Tengo conocimientos básicos en control de versiones con Git y metodologías ágiles (Scrum).
                                 Aunque mi experiencia práctica es inicial, he desarrollado proyectos académicos y personales que me han permitido aplicar estas tecnologías y fortalecer mi capacidad para resolver problemas y trabajar en equipo.</p>
 
@@ -104,200 +106,135 @@
                     </div>
                 </div>
             </section>
-            <hr class="m-0" />
+            <hr class="m-2" />
+
             <!-- Servicios-->
             <section class="resume-section" id="services">
                 <div class="resume-section-content">
                     <h2 class="mb-5">Servicios</h2>
+
+
                     <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div class="flex-grow-1">
-                            <h3 class="mb-0">Kinesiterapia Respiratoria infantil</h3>
-                            <div class="subheading mb-3 text-primary">Mejora la Función Respiratoria de tus Hijos</div>
-                            <p>Como representante de Fit Your Brain, brindo un servicio especializado de kinesiterapia respiratoria infantil. Mi enfoque se basa en la evidencia científica y años de experiencia clínica en entornos hospitalarios, garantizando un tratamiento efectivo y seguro para enfermedades respiratorias agudas (como bronquiolitis y síndrome bronquial obstructivo, SBO) y crónicas (asma y SBO recurrente).</p>
-                            <div class="subheading mb-3">Mi objetivo es:</div>
+                            <!-- Botón para desplegar contenido -->
+                            <h3 class="mb-0 toggle-content" id="toggleButton">
+                                Kinesiterapia para Niños, Adolescentes y Adultos con TDAH
+                                <i class="fa-solid fa-chevron-down" id="chevronIcon"></i>
+                            </h3>
+                            <div class="subheading mb-3 text-primary">
+                                Mejora la Atención y el Rendimiento Escolar y Laboral
+                            </div>
+                    
+                            <!-- Contenido oculto por defecto -->
+                            <div id="content" style="display: none;">
+                                <p>Brindo un servicio especializado de kinesiterapia para personas con Trastorno de Déficit Atencional e Hiperactividad (TDAH), ya sea con o sin tratamiento farmacológico...</p>
+                    
+                                <div class="subheading mb-3">Objetivos:</div>
                                 <ul class="fa-ul mb-0">
-                                    <li>
-                                    <span class="fa-li"><i class="fas fa-lungs"></i></span>
-                                     Mejorar la función respiratoria.
-                                    </li>
-                                    <li>
-                                        <span class="fa-li"><i class="fas fa-lungs"></i></span>
-                                         Disminuir la obstrucción bronquial y mejorar la expansion pulmonar.                       
-                                     </li>
-                                    <li>
-                                        <span class="fa-li"><i class="fas fa-lungs"></i></span>
-                                        Reducir la posibilidad complicaciones, de hospitalización y re-hospitalizacion.                        
-                                    </li>
-                                    <li>
-                                        <span class="fa-li"><i class="fas fa-lungs"></i></span>
-                                        Mejorar la calidad de vida de tus pequeños.                        
-                                    </li>
+                                    <li><span class="fa-li"><i class="fas fa-bicycle"></i></span>Aumentar la capacidad aeróbica y reducir el peso corporal.</li>
+                                    <li><span class="fa-li"><i class="fas fa-bicycle"></i></span>Mejorar los diferentes tipos de atención.</li>
+                                    <li><span class="fa-li"><i class="fas fa-bicycle"></i></span>Mejorar el control de impulsos.</li>
+                                    <li><span class="fa-li"><i class="fas fa-bicycle"></i></span>Optimizar el rendimiento escolar y laboral.</li>
+                                    <li><span class="fa-li"><i class="fas fa-bicycle"></i></span>Reducir la necesidad de fármacos y minimizar problemas conductuales.</li>
+                                    <li><span class="fa-li"><i class="fas fa-bicycle"></i></span>Promover el bienestar físico, cognitivo y emocional.</li>
+                                </ul>
+                                <br>
+                                <div class="subheading mb-3">Metodología:</div>
+                                <ul class="fa-ul mb-0">
+                                    <li><span class="fa-li"><i class="fas fa-bicycle"></i></span>Sesiones personalizadas, con flexibilidad horaria y adaptadas a cada persona.</li>
+                                </ul>    
+                            </div>
+                        </div>
+                    </div>
+                    
+                    
+
+
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0 toggle-content" id="toggleButton">Kinesiterapia Respiratoria infantil  <i class="fa-solid fa-chevron-down" id="chevronIcon"></i></h3>
+                            <div class="subheading mb-3 text-primary">Mejora la Función Respiratoria de tus Hijos</div>
+                            
+                            <div id="content" style="display: none;">
+                                <p>Como representante de Fit Your Brain, brindo un servicio especializado de kinesiterapia respiratoria infantil. Mi enfoque se basa en la evidencia científica y años de experiencia clínica en entornos hospitalarios, garantizando un tratamiento efectivo y seguro para enfermedades respiratorias agudas (como bronquiolitis y síndrome bronquial obstructivo, SBO) y crónicas (asma y SBO recurrente).</p>
+                                <div class="subheading mb-3">Mi objetivo es:</div>
+                                <ul class="fa-ul mb-0">
+                                    <li><span class="fa-li"><i class="fas fa-lungs"></i></span>Mejorar la función respiratoria.</li>
+                                    <li><span class="fa-li"><i class="fas fa-lungs"></i></span>Disminuir la obstrucción bronquial y mejorar la expansion pulmonar.</li>
+                                    <li><span class="fa-li"><i class="fas fa-lungs"></i></span>Reducir la posibilidad complicaciones, de hospitalización y re-hospitalizacion.</li>
+                                    <li><span class="fa-li"><i class="fas fa-lungs"></i></span>Mejorar la calidad de vida de tus pequeños.</li>
                                 </ul>
                                 <br>
                                 <div class="subheading mb-3">Técnicas kinesicas :</div>
                                 <ul class="fa-ul mb-0">
-                                    <li>
-                                        <span class="fa-li"><i class="fas fa-lungs"></i></span>
-                                        Drenaje postural y vibraciones torácicas.                                    
-                                    </li>
-                                    <li>
-                                        <span class="fa-li"><i class="fas fa-lungs"></i></span>
-                                        Espiración lenta y forzada, tos asistida y provocada.                                    
-                                    <li>
-                                        <span class="fa-li"><i class="fas fa-lungs"></i></span>
-                                        Aspiración de secreciones desde la orofaringe.                                    
-                                    <li>
-                                        <span class="fa-li"><i class="fas fa-lungs"></i></span>
-                                        Aerosolterapia (inhaladores de dosis medida y nebulizaciones).                                
-                                </ul>    
+                                    <li><span class="fa-li"><i class="fas fa-lungs"></i></span>Drenaje postural y vibraciones torácicas.</li>
+                                    <li><span class="fa-li"><i class="fas fa-lungs"></i></span>Espiración lenta y forzada, tos asistida y provocada.</li>    
+                                    <li><span class="fa-li"><i class="fas fa-lungs"></i></span>Aspiración de secreciones desde la orofaringe.</li>                        
+                                    <li><span class="fa-li"><i class="fas fa-lungs"></i></span>Aerosolterapia (inhaladores de dosis medida y nebulizaciones).</li>                                
+                                </ul>  
+                            </div>  
                         </div>
                         <!-- <div class="flex-shrink-0"><span class="text-primary">Junio  2006 - octubre 2024</span></div> -->
                     </div>
 
                     <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div class="flex-grow-1">
-                            <h3 class="mb-0">Kinesiterapia Neurológica</h3>
+                            <h3 class="mb-0 toggle-content" id="toggleButton">Kinesiterapia Neurológica <i class="fa-solid fa-chevron-down" id="chevronIcon"></i></h3>
                             <div class="subheading mb-3 text-primary">Mejora tu Calidad de Vida</div>
-                            <p>Como Fit Your Brain, ofrezco una rehabilitación neurológica especializada para personas con secuelas motoras y cognitivas derivadas de patologías del sistema nervioso central o periférico, como accidentes cerebrovasculares, Parkinson, Alzheimer, entre otras</p>
-                            <div class="subheading mb-3">Mi objetivo es:</div>
+
+                            <div  id="content" style="display: none;">
+                                <p>Como Fit Your Brain, ofrezco una rehabilitación neurológica especializada para personas con secuelas motoras y cognitivas derivadas de patologías del sistema nervioso central o periférico, como accidentes cerebrovasculares, Parkinson, Alzheimer, entre otras</p>
+                                <div class="subheading mb-3">Mi objetivo es:</div>
                                 <ul class="fa-ul mb-0">
-                                    <li>
-                                    <span class="fa-li"><i class="fa-solid fa-brain"></i></span>
-                                    Recuperar la maxima funcionalidad y autonomía de cada paciente.                                    
-                                    </li>
-                                    <li>
-                                        <span class="fa-li"><i class="fas fa-brain"></i></span>
-                                        Mejorar la calidad de vida a nivel físico, cognitivo y social.                                     
-                                    </li>
-                                    <li>
-                                        <span class="fa-li"><i class="fas fa-brain"></i></span>
-                                        Retrasar el deterioro cognitivo relacionado con el envejecimiento y potenciando las funciones cognitivas tales como memoria, atención, impulsividad.
-                                    </li>
+                                    <li><span class="fa-li"><i class="fa-solid fa-brain"></i></span>Recuperar la maxima funcionalidad y autonomía de cada paciente.</li>
+                                    <li><span class="fa-li"><i class="fas fa-brain"></i></span>Mejorar la calidad de vida a nivel físico, cognitivo y social.</li>
+                                    <li><span class="fa-li"><i class="fas fa-brain"></i></span>Retrasar el deterioro cognitivo relacionado con el envejecimiento y potenciando las funciones cognitivas tales como memoria, atención, impulsividad.</li>
                                 </ul>
                                 <br>
                                 <div class="subheading mb-3">Técnicas kinésicas :</div>
                                 <ul class="fa-ul mb-0">
-                                    <li>
-                                        <span class="fa-li"><i class="fas fa-brain"></i></span>
-                                        Ejercicios para mantener o mejorar los rangos articulares de movimiento.                                    
-                                    </li>
-                                    <li>
-                                        <span class="fa-li"><i class="fas fa-brain"></i></span>
-                                        Ejercicios de fortalecimiento muscular.
-                                    </li>                                        
-                                    <li>
-                                        <span class="fa-li"><i class="fas fa-brain"></i></span>
-                                        Reeducación del control motor y facilitación de tareas funcionales (alcance de objetos, transferencias, marcha).                                    
-                                    </li>    
-                                    <li>
-                                        <span class="fa-li"><i class="fas fa-brain"></i></span>
-                                        Optimización del equilibrio, reducción del riesgo de caídas y fomento de la independencia funcional.  
-                                    </li>
-                                    <li>
-                                        <span class="fa-li"><i class="fas fa-brain"></i></span>
-                                        Estimulación de funciones cognitivas tales como memoria, atención, impulsividad.                                    </li>                                  
-                                </ul>    
-                        </div>
-                        <!-- <div class="flex-shrink-0"><span class="text-primary">Marzo 2008 - Presente</span></div> -->
-                    </div>
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">Kinesiterapia para Niños y Adultos con TDAH</h3>
-                            <div class="subheading mb-3 text-primary">Mejora la Atención y el Rendimiento Escolar y Laboral</div>
-                            <p>Brindo un servicio especializado de kinesiterapia para personas con Trastorno de Déficit Atencional e Hiperactividad (TDAH), ya sea con o sin tratamiento farmacológico. A través de un enfoque basado en evidencia, utilizo la actividad física bien dosificada, ajustando la intensidad, el tipo de ejercicio y la demanda cognitiva de cada actividad.</p>
-                            <div class="subheading mb-3">Objetivos:</div>
-                                <ul class="fa-ul mb-0">
-                                    <li>
-                                    <span class="fa-li"><i class="fas fa-bicycle"></i></span>
-                                        Aumentar la capacidad aeróbica y reducir el peso corporal.                                    
-                                    </li>
-                                    <li>
-                                        <span class="fa-li"><i class="fa-bicycle"></i></span>
-                                        Mejorar los diferentes tipos de atención.                                      
-                                    </li>
-                                    <li>
-                                        <span class="fa-li"><i class="fas fa-bicycle"></i></span>
-                                        Mejorar el control de impulsos.
-                                    </li>
-                                    <li>
-                                        <span class="fa-li"><i class="fas fa-bicycle"></i></span>
-                                        Optimizar el rendimiento escolar y laboral.
-                                    </li>
-                                    <li>
-                                        <span class="fa-li"><i class="fas fa-bicycle"></i></span>
-                                        Además, en casos bien específicos reducir la necesidad de fármacos y minimizar los problemas conductuales en el colegio, el trabajo y el hogar.
-                                    </li>
-                                    <li>
-                                        <span class="fa-li"><i class="fas fa-bicycle"></i></span>
-                                        Promover el bienestar físico, cognitivo y emocional de niños y adultos.
-                                    </li>
+                                    <li><span class="fa-li"><i class="fas fa-brain"></i></span>Ejercicios para mantener o mejorar los rangos articulares de movimiento.</li>
+                                    <li><span class="fa-li"><i class="fas fa-brain"></i></span>Ejercicios de fortalecimiento muscular.</li>                                        
+                                    <li><span class="fa-li"><i class="fas fa-brain"></i></span>Reeducación del control motor y facilitación de tareas funcionales (alcance de objetos, transferencias, marcha).</li>    
+                                    <li><span class="fa-li"><i class="fas fa-brain"></i></span>Optimización del equilibrio, reducción del riesgo de caídas y fomento de la independencia funcional.</li>
+                                    <li><span class="fa-li"><i class="fas fa-brain"></i></span>Estimulación de funciones cognitivas tales como memoria, atención, impulsividad.</li>                                  
                                 </ul>
-                                <br>
-                                <div class="subheading mb-3">Metodología:</div>
-                                <ul class="fa-ul mb-0">
-                                    <li>
-                                        <span class="fa-li"><i class="fas fa-bicycle"></i></span>
-                                        Con un enfoque basado en evidencia científica, brindamos sesiones personalizadas, con flexibilidad horaria y adaptadas a las necesidades específicas de cada persona.
-                                    </li>
-                                    
-                                </ul>    
+                            </div>        
                         </div>
                         <!-- <div class="flex-shrink-0"><span class="text-primary">Marzo 2008 - Presente</span></div> -->
                     </div>
 
                     <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div class="flex-grow-1">
-                            <h3 class="mb-0">Kinesiterapia Respiratoria para Adultos</h3>
+                            <h3 class="mb-0 toggle-content" id="toggleButton">Kinesiterapia Respiratoria para Adultos <i class="fa-solid fa-chevron-down" id="chevronIcon"></i></h3>
                             <div class="subheading mb-3 text-primary">Respira Mejor y Mejora tu Calidad de Vida</div>
-                            <p>El servicio de kinesiterapia respiratoria para adultos se enfoca en mejorar la función pulmonar, disminuir la dificultad para respirar y mejorar la oxigenación de los tejidos, especialmente en pacientes con patologías obstructivas, EPOC, asma, bronquitis, entre otras, y patologías restrictivas, como Neumonía, fibrosis pulmonar y condiciones que limitan la expansión pulmonar.</p>
-                            <div class="subheading mb-3">Objetivos:</div>
+                            <div  id="content" style="display: none;">
+                                <p>El servicio de kinesiterapia respiratoria para adultos se enfoca en mejorar la función pulmonar, disminuir la dificultad para respirar y mejorar la oxigenación de los tejidos, especialmente en pacientes con patologías obstructivas, EPOC, asma, bronquitis, entre otras, y patologías restrictivas, como Neumonía, fibrosis pulmonar y condiciones que limitan la expansión pulmonar.</p>
+                                <div class="subheading mb-3">Objetivos:</div>
                                 <ul class="fa-ul mb-0">
-                                    <li>
-                                    <span class="fa-li"><i class="fas fa-stethoscope"></i></span>
-                                        Mejorar la función respiratoria.                                    
-                                    </li>
-                                    <li>
-                                        <span class="fa-li"><i class="fas fa-stethoscope"></i></span>
-                                        Disminuir la obstrucción bronquial y mejorar la expansión pulmonar.                                      
-                                    </li>
-                                    <li>
-                                        <span class="fa-li"><i class="fas fa-stethoscope"></i></span>
-                                        Reducir las complicaciones asociadas al reposo prolongado en cama.
-                                    </li>
-                                    <li>
-                                        <span class="fa-li"><i class="fas fa-stethoscope"></i></span>
-                                        Favorecer el pronto retorno a las actividades de la vida diaria y asi evitar la disfuncionalidad del adulto.
-                                    </li>
-                                   
-                                   
+                                    <li><span class="fa-li"><i class="fas fa-stethoscope"></i></span>Mejorar la función respiratoria.</li>
+                                    <li><span class="fa-li"><i class="fas fa-stethoscope"></i></span>Disminuir la obstrucción bronquial y mejorar la expansión pulmonar.</li>
+                                    <li><span class="fa-li"><i class="fas fa-stethoscope"></i></span>Reducir las complicaciones asociadas al reposo prolongado en cama.</li>
+                                    <li><span class="fa-li"><i class="fas fa-stethoscope"></i></span>Favorecer el pronto retorno a las actividades de la vida diaria y asi evitar la disfuncionalidad del adulto.</li>
                                 </ul>
                                 <br>
                                 <div class="subheading mb-3">Técnicas kinésicas :</div>
                                 <ul class="fa-ul mb-0">
-                                    <li>
-                                        <span class="fa-li"><i class="fas fa-stethoscope"></i></span>
-                                        Para cuadros obstructivos: Permeabilización de la vía aérea mediante drenaje postural, tos asistida, succión de secreciones y Aerosolterapia con inhaladores de dosis medida y nebulizaciones.                                    
-                                    </li>
-                                                                           
-                                    <li>
-                                        <span class="fa-li"><i class="fas fa-stethoscope"></i></span>
-                                        Para cuadros restrictivos: Técnicas de inspiración lenta, ejercicios respiratorios y respiración diafragmática para mejorar la ventilación pulmonar.
-                                    </li>    
-                                    <li>
-                                        <span class="fa-li"><i class="fas fa-stethoscope"></i></span>
-                                        Movilización precoz, global y segura.
-                                    </li>
+                                    <li><span class="fa-li"><i class="fas fa-stethoscope"></i></span>Para cuadros obstructivos: Permeabilización de la vía aérea mediante drenaje postural, tos asistida, succión de secreciones y Aerosolterapia con inhaladores de dosis medida y nebulizaciones.</li>
+                                    <li><span class="fa-li"><i class="fas fa-stethoscope"></i></span>Para cuadros restrictivos: Técnicas de inspiración lenta, ejercicios respiratorios y respiración diafragmática para mejorar la ventilación pulmonar.</li>    
+                                    <li><span class="fa-li"><i class="fas fa-stethoscope"></i></span>Movilización precoz, global y segura.</li>
                                     
                                 </ul>    
+                            </div>    
                         </div>
                         <!-- <div class="flex-shrink-0"><span class="text-primary">Marzo 2008 - Presente</span></div> -->
                     </div>
 
                     <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div class="flex-grow-1">
-                            <h3 class="mb-0">Kinesiterapia</h3>
+                            <h3 class="mb-0 toggle-content" id="toggleButton">Bonus: Desarrollo de proyectos web <i class="fa-solid fa-chevron-down" id="chevronIcon"></i></h3>
                             <div class="subheading mb-3">Freelancer</div>
-                            <p>Por si te interesa, puedo ayudarte en el desarrollo de proyectos tecnologicosSoy un Desarrollador Web Full Stack Junior en proceso de consolidar mis habilidades en HTML, CSS, JavaScript, React (frontend) y Node.js, Express, MongoDB (backend). Tengo conocimientos básicos en control de versiones con Git y metodologías ágiles (Scrum).
+                            <p>Por si te interesa, puedo ayudarte en el desarrollo de proyectos tecnologicos que impliquen el uso de HTML, CSS, JavaScript, React (frontend) y Node.js, Express, MongoDB (backend). Tengo conocimientos básicos en control de versiones con Git y metodologías ágiles (Scrum).
                                 Aunque mi experiencia práctica es inicial, he desarrollado proyectos académicos y personales que me han permitido aplicar estas tecnologías y fortalecer mi capacidad para resolver problemas y trabajar en equipo.</p>
 
                         </div>
@@ -316,7 +253,7 @@
                     <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div class="flex-grow-1">
                             <h3 class="mb-0">Universidad Católica del Maule</h3>
-                            <div class="subheading mb-3">Licenciatura en Kinesiología</div>
+                            <div class="text-primary subheading mb-3">Licenciatura en Kinesiología</div>
                             <!-- <p>Facultad de Salud</p>
                             <p>Ranking egreso: 9/10</p> -->
                         </div>
@@ -327,7 +264,7 @@
                     <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div class="flex-grow-1">
                             <h3 class="mb-0">Universidad de Chile</h3>
-                            <div class="subheading mb-3">Magíster en Ciencias Médicas y Biológicas, mención Neurociencias (en trámite)</div>
+                            <div class="text-primary subheading mb-3">Magíster en Ciencias Médicas y Biológicas, mención Neurociencias (en trámite)</div>
                         </div>
                         <!-- <div class="flex-shrink-0"><span class="text-primary">Marzo 2008 - Mayo 2006</span></div> -->
                     </div>
@@ -336,7 +273,7 @@
                     <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div class="flex-grow-1">
                             <h3 class="mb-0">Universidad del Desarrollo</h3>
-                            <div class="subheading mb-3">Bootcamp Desarrollo Web Full Stack</div>
+                            <div class="text-primary subheading mb-3">Bootcamp Desarrollo Web Full Stack</div>
                         </div>
                     </div>
             
@@ -344,7 +281,7 @@
                     <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div class="flex-grow-1">
                             <h3 class="mb-0">Universidad Autónoma</h3>
-                            <div class="subheading mb-3">Diplomado en Big Data y Machine Learning, en curso</div>
+                            <div class="text-primary subheading mb-3">Diplomado en Big Data y Machine Learning, en curso</div>
                         </div>
                         <!-- <div class="flex-shrink-0"><span class="text-primary">Marzo 2008 - Mayo 2006</span></div> -->
                     </div>
@@ -380,7 +317,7 @@
                     <ul class="fa-ul mb-0">
                         <li>
                             <span class="fa-li"><i class="fas fa-check"></i></span>
-                            Ingles intermedio
+                            Ingles escrito y oral intermedio
                         </li>
                     </ul>
                     
@@ -401,7 +338,7 @@
                         </li> -->
                         <li>
                             <span class="fa-li"><i class="fas fa-check"></i></span>
-                            Agile Development & Scrum
+                            Desarrollo ágil & Scrum
                         </li>
                     </ul>
                 </div>

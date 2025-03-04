@@ -54,3 +54,47 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     });
 });
+
+
+// contenido desplegable
+document.addEventListener("DOMContentLoaded", function() {
+    // Selecciona todos los encabezados (h3) que activan el toggle
+    let toggleButtons = document.querySelectorAll(".toggle-content");
+
+    toggleButtons.forEach(button => {
+        button.addEventListener("click", function(event) {
+            event.stopPropagation(); // Evita que el clic se propague al document
+
+            let content = this.nextElementSibling.nextElementSibling; // Encuentra el div de contenido
+            let chevronIcon = this.querySelector("i"); // Encuentra el ícono dentro del h3
+
+            let isVisible = content.style.display === "block";
+
+            // Oculta todos los demás antes de abrir el nuevo
+            closeAllDropdowns();
+
+            // Si estaba oculto, lo muestra
+            if (!isVisible) {
+                content.style.display = "block";
+                chevronIcon.classList.add("rotated");
+            }
+        });
+    });
+
+    // Cierra el contenido al hacer clic fuera
+    document.addEventListener("click", function(event) {
+        if (!event.target.closest(".toggle-content") && !event.target.closest("#content")) {
+            closeAllDropdowns();
+        }
+    });
+
+    // Cierra todos los desplegables y resetea los iconos
+    function closeAllDropdowns() {
+        document.querySelectorAll("#content").forEach(content => {
+            content.style.display = "none";
+        });
+        document.querySelectorAll(".toggle-content i").forEach(icon => {
+            icon.classList.remove("rotated");
+        });
+    }
+});

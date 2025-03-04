@@ -88,6 +88,26 @@
 }
 
 
+/* desplegar servicios */
+.toggle-content {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 70px; /* Espacio entre el texto y el ícono */
+}
+
+#chevronIcon {
+  transition: transform 0.3s ease-in-out;
+}
+
+#chevronIcon.rotated {
+  transform: rotate(180deg);
+}
+/* desplegar servicios */
+
+
+
+
 
 
 *,
